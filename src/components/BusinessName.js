@@ -1,7 +1,7 @@
 export default function BusinessName() {
     return(
         <div>
-            <p>Lovie's Nails</p>
+            <h2>Lovie's Nails</h2>
         </div>
     );
 }

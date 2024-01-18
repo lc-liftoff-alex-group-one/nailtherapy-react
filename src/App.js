@@ -1,6 +1,7 @@
 
 import './App.css';
 import BusinessName from './components/BusinessName';
+import Contact from './components/Contact';
 import Hours from './components/Hours';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <header>
       <BusinessName />
       <Hours />
+      <Contact />
       </header>
     </div>
    
