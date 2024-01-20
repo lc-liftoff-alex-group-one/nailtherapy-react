@@ -1,0 +1,78 @@
+.create {
+    font-family: "Courgette", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    color: black;
+}
+.title {
+font-size: 60px;
+text-align: left;
+
+}
+
+.reason {
+    text-align: left;
+}
+
+/* .names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .names > div {
+    width: 48%;
+  }
+  
+  .names label {
+    display: block;
+    margin-bottom: 20px;
+    
+  } */
+  
+  .names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+  }
+  
+  .names > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:49%;
+
+  }
+  
+
+  .names > div > div > label {
+    margin-right: 60px;
+    
+  }
+
+  .names > div > label.firstname {
+    margin-right: -175px;
+    margin-bottom: 10px;
+
+  }
+  
+  .names > div > label.lastname {
+    margin-right: -175px;
+  }
+  
+  .emailandpassword {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .emailandpassword > div {
+    margin-bottom: 10px;
+  }
+  
+  .emailandpassword > div > label {
+    margin-right: 10px;
+  }
