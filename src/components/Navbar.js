@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="navigation">
             <a href="/" className="brand-name">
-                Nail Therapy
+                Lovie's Nails
             </a>
             <button className="hamburger" onClick={_ => setIsNavExpanded(!isNavExpanded)}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="white">
