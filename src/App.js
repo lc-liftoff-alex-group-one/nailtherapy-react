@@ -4,14 +4,13 @@ import "./styling.css";
 import Navbar from "./components/Navbar";
 import Contact from './components/Contact';
 import Hours from './components/Hours';
-import CreateAccount from "./components/CreateAccount";
-
+import CreateAccountForm from "./components/Create";
 function App() {
   return (
       <div className="App">
           <Navbar />
           <header>
-       <CreateAccount/>
+       <CreateAccountForm />
           </header>
       </div>
   );
