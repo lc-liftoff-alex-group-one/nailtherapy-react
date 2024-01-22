@@ -40,7 +40,7 @@ export default function CreateAccountForm() {
       /> </label>
       
       <label htmlFor="lastName"> Last Name: <input
-        type="text"
+        type="text" 
         id="lastName"
         name="lastName"
         value={formData.LastName}
