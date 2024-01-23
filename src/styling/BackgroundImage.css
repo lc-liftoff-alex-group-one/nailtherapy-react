@@ -1,0 +1,8 @@
+body {
+    background-image: url('../images/pink-rose.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 105%, 85%;
+    opacity: 1.5;
+}
