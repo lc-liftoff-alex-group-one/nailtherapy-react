@@ -4,6 +4,7 @@ import "./styling.css";
 import Navbar from "./components/Navbar";
 import Contact from './components/Contact';
 import Hours from './components/Hours';
+import ServicesList from "./components/Services";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
               <Hours/>
               <Contact/>
           </header>
+          <ServicesList />
       </div>
   );
 }
