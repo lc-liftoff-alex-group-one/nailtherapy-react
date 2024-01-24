@@ -24,7 +24,9 @@ export default function LoginForm() {
     <div>
 
         <h1 id="login">Login:</h1>
-        
+        <div>
+        <a href="/create">CREATE AN ACCOUNT</a>
+        </div>
     
     <form onSubmit={handleSubmit}>
  
@@ -50,6 +52,7 @@ export default function LoginForm() {
         required
       />
     <button id="login-account" type="submit">Login</button>    
+    <a href="/forgetPassword">FORGOT YOUR PASSWORD?</a>
 
 
 </form>

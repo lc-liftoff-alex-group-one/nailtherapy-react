@@ -11,8 +11,8 @@ function App() {
       <div className="App">
           <Navbar />
           <header>
-       {/* <CreateAccountForm /> */}
-       <LoginForm />
+       <CreateAccountForm />
+       {/* <LoginForm /> */}
           </header>
       </div>
   );
