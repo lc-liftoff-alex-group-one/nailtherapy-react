@@ -1,6 +1,14 @@
-.hours{
+ .flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    justify-content:spac;
+    align-items: center;
+ }
+ .hours{
     text-align: center;
     text-shadow: 2px 2px 5px white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Courgette", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     
  }

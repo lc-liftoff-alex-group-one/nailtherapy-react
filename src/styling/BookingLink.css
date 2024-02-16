@@ -1,0 +1,20 @@
+.centered-button {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+.button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;  
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}

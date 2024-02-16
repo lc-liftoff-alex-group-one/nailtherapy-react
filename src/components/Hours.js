@@ -2,13 +2,12 @@ import "../styling/Hours.css";
 
 export default function Hours() {
     return(
-        <div>
+        <div className="flex-container">
             <h2 className="hours">Hours of Operation</h2>
-            <ul className="hours">
-                <li>Monday-Friday ~ 4pm to 8pm</li>
-                <li>Saturday ~ 10am to 8pm</li>
-                <li>Sunday ~ Closed</li>
-            </ul>
+                <p className="hours">Monday-Friday ~ 4pm to 8pm</p>
+                <p className="hours">Saturday ~ 10am to 8pm</p>
+                <p className="hours">Sunday ~ Closed</p>
+
             
         </div>
     );
