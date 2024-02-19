@@ -37,10 +37,7 @@ const [isLoading, setIsLoading] = useState(true);
    //    return <p>Loading...</p>;
    // }
 
-   return(
-    
-    
-    
+   return(  
       <div>
          <form>
             <h3>GET IN TOUCH</h3>
@@ -48,22 +45,11 @@ const [isLoading, setIsLoading] = useState(true);
             <label>Email Id <input type="email" /></label>
             <label>Phone number <input type="text" /></label>
             <label>How can we help you? <input type="textarea" />
-            {/* <p>Preview: {notes} </p> */}
             </label>
             <button type= "submit">Send</button>
             </form>
-           
-
-            {/* <input type='text' id='name' placeholder='Your Name' required/>
-            <input type='email' id='email' placeholder='Email Id' required/>
-            <input type='text' id='phone' placeholder='Phone number' required/>
-           <textarea id= 'message' rows="4" placeholder='How can we help you?'></textarea>
-           <button type='submit'>Send</button> */}
-         
          </div>
-         
-         
-      
+                    
       );
       
 }
