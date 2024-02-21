@@ -1,4 +1,4 @@
-// import "../styling/BookingLink.css";
+import "../styling/BookingLink.css";
 
 export default function BookingLink() {
     return(

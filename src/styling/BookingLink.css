@@ -8,9 +8,9 @@
 
 .button{
     padding: 15px;
-    background: #ff5361;
+    background: red;
     color: #fff;  
-    font-size: 18px;
+    font-size: 26px;
     border: 0;
     outline: none;
     cursor: pointer;

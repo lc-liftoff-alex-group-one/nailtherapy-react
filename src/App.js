@@ -18,8 +18,8 @@ function App() {
     <BrowserRouter>
        <Routes>
          <Route path="/" element={<div><Navbar/> <Hours/><Contact/><BookingLink/><Reference/></div>}/>
-         <Route path="/contactform" element={<ContactForm />} />        
-          </Routes>
+         <Route path="contactform" element={<ContactForm />} />        
+       </Routes>
       </BrowserRouter>    
   );
   }
