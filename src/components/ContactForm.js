@@ -47,10 +47,10 @@ function ContactForm() {
       <div>
          <form onSubmit={handleSubmit}>
             <h3>GET IN TOUCH</h3>
-            <label>Your Name <input type="text" name= 'name' placeholder="name" value={formData.name} onChange={handleInputChange} /></label>
-            <label>Email Id <input type="email" name = 'email' placeholder="email" value={formData.email} onChange={handleInputChange}/></label>
-            <label>Phone number <input type="text" name = 'phone' placeholder="phone" value={formData.phone} onChange={handleInputChange}/></label>
-            <label>How can we help you? <input type="textarea" name = 'message' placeholder="message" value={formData.message} onChange={handleInputChange}/></label>
+            <label>Your Name <input type="text" name= 'name' value={formData.name} onChange={handleInputChange} /></label>
+            <label>Email Id <input type="email" name = 'email' value={formData.email} onChange={handleInputChange}/></label>
+            <label>Phone number <input type="text" name = 'phone' value={formData.phone} onChange={handleInputChange}/></label>
+            <label>How can we help you? <input type="textarea" name = 'message' value={formData.message} onChange={handleInputChange}/></label>
             <button name="button" type= "submit">Send</button>
             </form>
          </div>

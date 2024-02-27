@@ -35,3 +35,38 @@ form{
     border-radius: 30px;
   
   }
+  
+  .container{
+    position: absolute;
+    bottom: 0;
+  }
+  header{
+    
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    font-weight: 800;
+    margin-bottom: 50px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+td{
+  text-align: center;
+}
+th{
+  background-color: #04aa6d;
+  color: white;
+}
+tbody{
+  background-color: #f5f5f5;
+  font-family: cursive;
+}

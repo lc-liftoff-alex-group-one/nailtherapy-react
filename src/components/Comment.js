@@ -43,7 +43,7 @@ function Comment() {
    useEffect(() => {
         
        fetch('http://localhost:8080/api/v1/Comment').then(async res => {
-            console.log(res)
+            // console.log(res)
            const response= await res.json(); 
            setComments(response);
         }) 
@@ -66,11 +66,11 @@ function Comment() {
       <div>
          <form onSubmit={handleSubmit}>
             <h3>Leave us a comment!</h3>
-            <label>Name<input type="text" name= 'name' placeholder="name" value={formData.name} onChange={handleInputChange} /></label>
-            <label>Comment<input type="textarea" name = 'comment' placeholder="comment" value={formData.comment} onChange={handleInputChange}/></label>
+            <label>Name<input type="text" name= 'name'  value={formData.name} onChange={handleInputChange} /></label>
+            <label>Comment<input type="textarea" name = 'comment' value={formData.comment} onChange={handleInputChange}/></label>
             <button name="button" type= "submit">Post Comment</button>
             </form>
-            <div>
+            <div className="container">
                 <header>See What Others Have Said!</header>
             <table>
              <thead>
