@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styling/Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -21,6 +22,12 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a href="/login">Login</a>
+                    </li>
+                    <li>
+                        <Link to="/Comment">Leave a comment!</Link>
+                    </li>
+                    <li>
+                        <Link to="/ContactForm">Get in touch</Link>
                     </li>
                 </ul>
             </div>

@@ -27,9 +27,7 @@ function ContactForm() {
       try{
          const response = await fetch('http://localhost:8080/api/v1/ContactForm', {
             method: 'POST',
-            // mode: 'no-cors',
             headers: {
-            
               'Content-Type': 'application/json', 
             },
             body: JSON.stringify(formData),
@@ -77,22 +75,7 @@ export default ContactForm;
    //    // });
    // }, []);
 
-   // if (isLoading) {
-   //    return <p>Loading...</p>;
-   // }
-
-   // return(  
-   //    <div>
-   //       <form onSubmit={fetchApi}>
-   //          <h3>GET IN TOUCH</h3>
-   //          <label>Your Name <input type="text" /></label>
-   //          <label>Email Id <input type="email" /></label>
-   //          <label>Phone number <input type="text" /></label>
-   //          <label>How can we help you? <input type="textarea" />
-   //          </label>
-   //          <button type= "submit">Send</button>
-   //          </form>
-   //       </div>
+ 
                     
-   //    );
+   
       
