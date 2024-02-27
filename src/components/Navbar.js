@@ -18,7 +18,7 @@ export default function Navbar() {
             <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                 <ul>
                     <li>
-                        <a href="https://calendly.com/loviesnails/nail-appointment">Schedule Appointment</a>
+                        <a href="https://calendly.com/loviesnails/nail-appointment">Get Nailed</a>
                     </li>
                     <li>
                         <a href="/login">Login</a>
